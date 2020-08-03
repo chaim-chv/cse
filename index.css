@@ -1,9 +1,21 @@
 img.gs-image {
-border-Radius: 50%;
+  border-radius: 50%;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .foott {
-  position: relative;
- text-align: center;
- width: 100%;
+  text-align: center;
+  background-color: #c0c0c0;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index:100;
+}
+
+.gs-title, .gs-bidi-start-align, .gs-snippet, .gsc-tabsArea, .gsc-above-wrapper-area {
+    font-family: Assistant;
 }
