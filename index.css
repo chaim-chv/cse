@@ -81,6 +81,16 @@ visibility: hidden;
 
 .gsc-input-box {
     border-radius: 5px;
+  box-shadow:
+  0 0px 6px -5px rgba(0, 0, 0, 0.15),
+  0 0px 13.7px -5px rgba(0, 0, 0, 0.111),
+  0 0px 23.9px -5px rgba(0, 0, 0, 0.092),
+  0 0px 37.9px -5px rgba(0, 0, 0, 0.077),
+  0 0px 58.5px -5px rgba(0, 0, 0, 0.064),
+  0 0px 91.3px -5px rgba(0, 0, 0, 0.052),
+  0 0px 151.6px -5px rgba(0, 0, 0, 0.04),
+  0 0px 303px -5px rgba(0, 0, 0, 0.024)
+;
 }
 
 .gsc-input {
