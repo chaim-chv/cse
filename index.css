@@ -136,6 +136,7 @@ visibility: hidden;
     font-size: 18px;
     text-align: center;
     visibility: hidden;
+    pointer-events: none;
   }
   
   .rotatingText-adjective {
