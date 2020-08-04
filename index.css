@@ -135,6 +135,7 @@ visibility: hidden;
     font-style: italic;
     font-size: 18px;
     text-align: center;
+    visibility: hidden;
   }
   
   .rotatingText-adjective {
