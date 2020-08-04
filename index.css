@@ -136,8 +136,8 @@ visibility: hidden;
     font-size: 18px;
     text-align: center;
     visibility: hidden;
-    pointer-events: none;
-  }
+    cursor: pointer
+}
   
   .rotatingText-adjective {
     font-family: "assistant";
