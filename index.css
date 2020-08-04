@@ -1,21 +1,42 @@
-img.gs-image {
-  border-radius: 50%;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>חיפוש בפורומים החרדיים</title>
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        font-family: "assistant";
+      }
+    </style>
+  </head>
 
-h4 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+  <body style="background-image: url(back.jpg); background-attachment: fixed;">
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=010933123081969800903:vrvy5hwzjuu"
+    ></script>
+    <div class="gcse-search"></div>
 
-.foott {
-  text-align: center;
-  background-color: #c0c0c0;
-  position:fixed;
-  bottom:0;
-  width:100%;
-  z-index:100;
-}
+    <a href="https://mitmachim.top/user/chv" target="_blank"><img src="myport.jpeg" alt="avatar"
+        style="border-radius: 50%; width: 50px; height: 50px; bottom: 5px; position: fixed;" /></a>  
+        <a href="https://mitmachim.top/user/%D7%99%D7%90%D7%A0%D7%92-%D7%91%D7%95%D7%99" target="_blank"><img src="yang.jpg" alt="avatar"
+            style="border-radius: 50%; border: 1.5px; border-style: solid; width: 50px; height: 50px; bottom: 5px; left: 62px; position: fixed;" /></a>  
 
-.gs-title, .gs-bidi-start-align, .gs-snippet, .gsc-tabsArea, .gsc-above-wrapper-area {
-    font-family: Assistant;
-}
+    <div class="foott text-center" dir="rtl">
+            <h4>
+        נערך על ידי
+        <a
+          href="https://mitmachim.top/user/%D7%99%D7%90%D7%A0%D7%92-%D7%91%D7%95%D7%99" target="_blank"
+          >יאנג בוי</a
+        >
+        ועל ידי chv
+        <a href="https://github.com/chaim-chv" target="_blank">(גיטהב)</a><br />
+        האתר עדיין בסוג של בניה.. נשמח להערות!! במתמחים טופ
+      </h4>
+    </div>
+  </body>
+</html>
