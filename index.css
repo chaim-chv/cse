@@ -82,3 +82,7 @@ visibility: hidden;
 .gsc-input-box {
     border-radius: 5px;
 }
+
+.gsc-input {
+    height: 50px;
+}
