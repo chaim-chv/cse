@@ -1,42 +1,84 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>חיפוש בפורומים החרדיים</title>
-    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
-    <link rel="stylesheet" href="index.css" />
-    <style>
-      body {
-        font-family: "assistant";
-      }
-    </style>
-  </head>
+img.gs-image, .gs-image {
+  border-radius: 50%;
+  position: relative;
+  right: 600px;
+}
 
-  <body style="background-image: url(back.jpg); background-attachment: fixed;">
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=010933123081969800903:vrvy5hwzjuu"
-    ></script>
-    <div class="gcse-search"></div>
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: background-color 0.5s;
+    font-weight: 100;
+    text-shadow: 1px 0px 1px rgba(0,0,0,1);
+    color: white;
+}
 
-    <a href="https://mitmachim.top/user/chv" target="_blank"><img src="myport.jpeg" alt="avatar"
-        style="border-radius: 50%; width: 50px; height: 50px; bottom: 5px; position: fixed;" /></a>  
-        <a href="https://mitmachim.top/user/%D7%99%D7%90%D7%A0%D7%92-%D7%91%D7%95%D7%99" target="_blank"><img src="yang.jpg" alt="avatar"
-            style="border-radius: 50%; border: 1.5px; border-style: solid; width: 50px; height: 50px; bottom: 5px; left: 62px; position: fixed;" /></a>  
+h4:hover {
+    background-color: rgb(255, 193, 118);
+    border-radius: 6px;
+}
 
-    <div class="foott text-center" dir="rtl">
-            <h4>
-        נערך על ידי
-        <a
-          href="https://mitmachim.top/user/%D7%99%D7%90%D7%A0%D7%92-%D7%91%D7%95%D7%99" target="_blank"
-          >יאנג בוי</a
-        >
-        ועל ידי chv
-        <a href="https://github.com/chaim-chv" target="_blank">(גיטהב)</a><br />
-        האתר עדיין בסוג של בניה.. נשמח להערות!! במתמחים טופ
-      </h4>
-    </div>
-  </body>
-</html>
+.foott {
+  position:fixed;
+  text-align: left;
+  z-index: 100;
+  bottom: 0;
+  margin-left: 109px;
+  opacity: 0;
+}
+
+.foott:hover {
+    opacity: 1;
+}
+
+.gs-title, .gs-bidi-start-align, .gs-snippet, .gsc-tabsArea, .gsc-above-wrapper-area {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color: rgb(245, 236, 225);
+    border-radius: 6px;
+}
+
+a:hover ~ .foott {
+    opacity: 1;
+    background-color: rgb(255, 193, 118);
+    border-radius: 6px;
+}
+
+.gs-webResult, .gsc-tabHeader, .gsc-tabhActive, .gsc-refinementHeader, .gsc-refinementhInactive, .gsc-refinementhActive {
+    box-shadow:
+  0 2.2px 3.1px rgba(0, 0, 0, 0.1),
+  0 5.2px 7.5px rgba(0, 0, 0, 0.072),
+  0 9.8px 14.1px rgba(0, 0, 0, 0.06),
+  0 17.4px 25.2px rgba(0, 0, 0, 0.05),
+  0 32.6px 47.2px rgba(0, 0, 0, 0.04),
+  0 78px 113px rgba(0, 0, 0, 0.028)
+;
+    border-radius: 3px;
+    visibility: visible;
+    background-color: white;
+    transition: background-color 0.35s;
+}
+
+.gs-webResult:hover, .gsc-tabHeader:hover, .gsc-tabhActive:hover, .gsc-refinementHeader:hover, .gsc-refinementhActive:hover, .gsc-refinementhInactive:hover {
+    background-color: rgb(208, 255, 255);
+}
+
+.gs-spelling, .gsc-search-box, .gsc-search-box-tools {
+    visibility: visible;
+}
+
+.gsc-result, .gsc-control-cse, .gsc-control-cse-iw{
+visibility: hidden;
+}
+
+.gsc-input-box {
+    border-radius: 5px;
+}
