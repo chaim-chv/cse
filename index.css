@@ -97,6 +97,21 @@ a:hover ~ .foott {
 visibility: hidden;
 }
 
+.gsc-promotion {
+  box-shadow:
+  0 2.2px 3.1px rgba(0, 0, 0, 0.1),
+  0 5.2px 7.5px rgba(0, 0, 0, 0.072),
+  0 9.8px 14.1px rgba(0, 0, 0, 0.06),
+  0 17.4px 25.2px rgba(0, 0, 0, 0.05),
+  0 32.6px 47.2px rgba(0, 0, 0, 0.04),
+  0 78px 113px rgba(0, 0, 0, 0.028)
+;
+    border-radius: 3px;
+    border-color: #686700;
+    background-color: #FFECBE8C;
+    visibility: visible;
+}
+
 .gsc-input-box {
     border-radius: 5px;
   box-shadow:
