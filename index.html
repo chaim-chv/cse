@@ -55,8 +55,14 @@
         האתר עדיין בסוג של בניה.. נשמח להערות!! במתמחים טופ
       </h4>
     </div>
-     <script>
-        $('.rotatingText-adjective').hover(function(){$('.rotatingText').css("visibility","hidden"); });
+    
+    <script>
+        $(document).ready(rotar());
+        function rotar() {
+       var checkk = window.location.href
+       if (checkk == 'https://גוגל-בפורומים.tk/#gsc.tab=0') { (function(){$('.rotatingText').css("visibility","visible")})() }
+       else { console.log('not home..'); } }
     </script>
+    
   </body>
 </html>
