@@ -31,6 +31,24 @@ h4:hover {
     opacity: 1;
 }
 
+a.gs-title {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    padding-right: 4.5px;
+}
+
+.gs-visibleUrl {
+    line-height: 20px !important;
+    padding-right: 4.5px;
+}
+
+.gs-bidi-start-align {
+   font-size: 15px !important;
+   line-height: 20px !important;
+   padding-right: 4.5px;
+}
+
+
 .gs-title, .gs-bidi-start-align, .gs-snippet, .gsc-tabsArea, .gsc-above-wrapper-area {
     font-family: Arial, Helvetica, sans-serif;
 }
