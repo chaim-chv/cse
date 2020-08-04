@@ -23,7 +23,7 @@
     <div class="gcse-search"></div>
     
      <section id="rtt" class="rotatingText">
-        <div class="rotatingText-content">
+        <div class="rotatingText-content" ondblclick="hide()">
           <p class="rotatingText-description">
           ...הקלד למעלה כדי לחפש ב
           </p>
@@ -58,6 +58,7 @@
     
     <script>
         $(document).ready(rotar());
+        function hide() { (function(){$('.rotatingText').css("visibility","hidden")})() }
         function rotar() {
         if (window.location.href == 'https://xn----2hcbaoda6awpj3etc.tk/' || window.location.href == 'https://גוגל-בפורומים.tk/' || window.location.href == 'https://גוגל-בפורומים.tk') { (function(){$('.rotatingText').css("visibility","visible")})() }
        else { (function(){$('.rotatingText').css("visibility","hidden")})(); console.log('not home..'); console.log('domain is ' + window.location.href); } }
