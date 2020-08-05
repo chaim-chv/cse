@@ -90,7 +90,7 @@ a:hover ~ .foott {
 }
 
 .gsc-results-wrapper-nooverlay:hover ~ .rotatingText {
-    visibility: hidden;
+    visibility: hidden !important;
 }
 
 .gs-spelling, .gsc-search-box, .gsc-search-box-tools {
