@@ -136,7 +136,6 @@ visibility: hidden;
     font-size: 18px;
     text-align: center;
     visibility: hidden;
-    cursor: pointer
 }
   
   .rotatingText-adjective {
@@ -154,6 +153,7 @@ visibility: hidden;
     text-align: center;
     text-transform: uppercase;
     top: 0;
+    pointer-events: none;
   }
   
   .rotatingText-adjective:nth-of-type(1) {
