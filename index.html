@@ -64,8 +64,8 @@
     
     <script>
       
-      $('.gsc-results-wrapper-nooverlay').mouseover(function() {
-   $('.rotatingText').cssImportant("visibility", "hidden");
+     $(document).on('mouseenter', '.gsc-results-wrapper-visible', function() {
+   hide();
 });
         
 jQuery.fn.cssImportant = function(name, value) {
