@@ -140,6 +140,11 @@ a:hover ~ .foott {
   visibility: visible;
 }
 
+.gsc-search-box, .gsc-search-box-tools {
+  position: sticky !important;
+  top: 6px;
+  z-index: 100;
+}
 .gsc-input-box, .gsc-search-button-v2 {
   border-radius: 5px;
   box-shadow:
