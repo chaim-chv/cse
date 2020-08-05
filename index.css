@@ -89,7 +89,7 @@ a:hover ~ .foott {
    background-color: rgb(248, 252, 233);
 }
 
-.gs-webResult:hover, .gsc-tabHeader:hover, .gsc-tabhActive:hover, .gsc-refinementHeader:hover, .gsc-refinementhActive:hover, .gsc-refinementhInactive:hover ~ .rotatingText {
+.gsc-results-wrapper-nooverlay:hover ~ .rotatingText {
     visibility: hidden;
 }
 
@@ -98,7 +98,7 @@ a:hover ~ .foott {
 }
 
 .gsc-result, .gsc-control-cse, .gsc-control-cse-iw{
-visibility: hidden;
+    visibility: hidden;
 }
 
 .gsc-promotion {
