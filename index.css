@@ -86,7 +86,7 @@ a:hover ~ .foott {
 }
 
 .gs-webResult:hover, .gsc-tabHeader:hover, .gsc-tabhActive:hover, .gsc-refinementHeader:hover, .gsc-refinementhActive:hover, .gsc-refinementhInactive:hover {
-   background-color: rgb(246, 255, 205);
+   background-color: rgb(248, 252, 233);
 }
 
 .gs-spelling, .gsc-search-box, .gsc-search-box-tools {
@@ -140,7 +140,7 @@ visibility: hidden;
   
   .rotatingText-adjective {
     font-family: "assistant";
-    font-size: 100px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     left: 0;
