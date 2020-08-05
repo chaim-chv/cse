@@ -27,11 +27,11 @@
     ></script>
     <div class="gcse-search"></div>
     
-     <section id="rtt" class="rotatingText" ondblclick="hide()">
+     <section id="rtt" class="rotatingText" onclick="hide()" ondblclick="okk(), hide()">
         <div class="rotatingText-content">
           <p class="rotatingText-description">
           ...הקלד למעלה כדי לחפש ב
-          (לחץ פעמיים כדי הסתיר את האובייקט)</p>
+          (לחץ כדי להסתיר, פעמיים כדי להסתיר לתמיד)</p>
       
           <h2 class="rotatingText-adjective">תחומים 🎓</h2>
           <h2 class="rotatingText-adjective">🛠 מתמחים טופ ⚙</h2>
@@ -62,11 +62,74 @@
     </div>
     
     <script>
-        $(document).ready(rotar());
-        function hide() { (function(){$('.rotatingText').css("visibility","hidden")})() }
-        function rotar() {
-        if (window.location.href == 'https://xn----2hcbaoda6awpj3etc.tk/' || window.location.href == 'https://גוגל-בפורומים.tk/' || window.location.href == 'https://גוגל-בפורומים.tk') { (function(){$('.rotatingText').css("visibility","visible")})() }
-       else { (function(){$('.rotatingText').css("visibility","hidden")})(); console.log('not home..'); console.log('domain is ' + window.location.href); } }
+        
+jQuery.fn.cssImportant = function(name, value) {
+  const $this = this;
+  const applyStyles = (n, v) => {
+    const dashedName = n.replace(/(.)([A-Z])(.)/g, (str, m1, upper, m2) => {
+      return m1 + "-" + upper.toLowerCase() + m2;
+    }); 
+    $this.each(function(){
+      this.style.setProperty(dashedName, v, 'important');
+    });
+  };
+  if(jQuery.isPlainObject(name)){
+    for(const [n, v] of Object.entries(name)){
+       applyStyles(n, v);
+    }
+  } else {
+    applyStyles(name, value);
+  }
+  return $this;
+};
+
+      function okk() {
+        document.cookie = "rotar=hided";
+      }
+
+      function clearcook() {
+        document.cookie =
+          "rotar=delayed; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+        document.cookie = "rotar=hided; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+      }
+
+      function hide() {
+          $('.rotatingText').cssImportant("visibility", "hidden");
+      }
+
+      function getCookie(c_name) {
+        var c_value = document.cookie,
+          c_start = c_value.indexOf(" " + c_name + "=");
+        if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+        if (c_start == -1) {
+          c_value = null;
+        } else {
+          c_start = c_value.indexOf("=", c_start) + 1;
+          var c_end = c_value.indexOf(";", c_start);
+          if (c_end == -1) {
+            c_end = c_value.length;
+          }
+          c_value = unescape(c_value.substring(c_start, c_end));
+        }
+        return c_value;
+      }
+
+      $(document).ready(checkcok());
+
+      function checkcok() {
+        acookie = getCookie("rotar"); // check for rotar hiding cookie
+        if (!acookie) {
+          if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            hide();
+            console.log('user is mobile device. rotating text hided.');
+          }
+          if (window.location.href == 'https://xn----2hcbaoda6awpj3etc.tk/' || window.location.href == 'https://גוגל-בפורומים.tk/' || window.location.href == 'https://גוגל-בפורומים.tk') { (function(){$('.rotatingText').css("visibility","visible")})() // show the rotary text!! }
+          else { console.log('not home... domain is ' + window.location.href); }
+        } else {
+          console.log('user hide the rotar');
+        }
+      }
+
     </script>
     
   </body>
