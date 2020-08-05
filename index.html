@@ -27,11 +27,12 @@
     ></script>
     <div class="gcse-search"></div>
     
-     <section id="rtt" class="rotatingText" onclick="hide()" ondblclick="okk(), hide()">
+     <section id="rtt" class="rotatingText">
         <div class="rotatingText-content">
           <p class="rotatingText-description">
-          ...הקלד למעלה כדי לחפש ב
-          (לחץ כדי להסתיר, פעמיים כדי להסתיר לתמיד)</p>
+          ...הקלד למעלה כדי לחפש ב<br>
+            (<a onclick="hide()">לחץ כדי להסתיר,</a>
+            לחץ כדי להסתיר <a onclick="okk()">לתמיד</a>)</p>
       
           <h2 class="rotatingText-adjective">תחומים 🎓</h2>
           <h2 class="rotatingText-adjective">🛠 מתמחים טופ ⚙</h2>
@@ -85,6 +86,7 @@ jQuery.fn.cssImportant = function(name, value) {
 
       function okk() {
         document.cookie = "rotar=hided";
+        hide();
       }
 
       function clearcook() {
