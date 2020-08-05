@@ -63,6 +63,10 @@
     </div>
     
     <script>
+      
+      $('.gsc-results-wrapper-nooverlay').mouseover(function() {
+   $('.rotatingText').cssImportant("visibility", "hidden");
+});
         
 jQuery.fn.cssImportant = function(name, value) {
   const $this = this;
