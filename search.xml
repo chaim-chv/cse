@@ -5,6 +5,6 @@
 <Description>חיפוש גוגל בפורומים החרדיים (תחומים, מתמחחים, מקצועות, אופיס, נטפרי וימות המשיח)</Description>
 <InputEncoding>UTF-8</InputEncoding>
 <Image height="16" width="16">https://xn----2hcbaoda6awpj3etc.tk/favicon.ico</Image>
-<Url type="text/html" method="GET" template="https://xn----2hcbaoda6awpj3etc.tk/#gsc.tab=0&amp;amp;gsc.q={searchTerms}&amp;amp;gsc.tab=0&amp;amp;gsc.q={searchTerms}"/>
+<Url type="text/html" method="GET" template="https://xn----2hcbaoda6awpj3etc.tk/#gsc.tab=0&gsc.q={searchTerms}"/>
 
 </OpenSearchDescription>
