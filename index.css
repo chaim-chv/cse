@@ -89,6 +89,10 @@ a:hover ~ .foott {
    background-color: rgb(248, 252, 233);
 }
 
+.gs-webResult:hover, .gsc-tabHeader:hover, .gsc-tabhActive:hover, .gsc-refinementHeader:hover, .gsc-refinementhActive:hover, .gsc-refinementhInactive:hover ~ .rotatingText-adjective {
+    visibility: hidden;
+}
+
 .gs-spelling, .gsc-search-box, .gsc-search-box-tools {
     visibility: visible;
 }
