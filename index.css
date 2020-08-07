@@ -262,7 +262,7 @@ a:hover ~ .foott {
   }
 }
 
-//lma 07/08/20 Centralize search results.
+/*lma 07/08/20 Centralize search results*/
 .gsc-tabdActive.gsc-tabData.gsc-resultsRoot {
     margin-right: 250px;
     margin-left: 250px;
