@@ -261,3 +261,14 @@ a:hover ~ .foott {
     transform: translate3d(0, 0, 0);
   }
 }
+
+//lma 07/08/20 Centralize search results.
+.gsc-tabdActive.gsc-tabData.gsc-resultsRoot {
+    margin-right: 250px;
+    margin-left: 250px;
+    
+}
+
+.gsc-result .gsc-thumbnail-inside div {
+    margin-top: 10px;
+}
