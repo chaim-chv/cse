@@ -31,6 +31,41 @@ h4:hover {
   opacity: 1;
 }
 
+/* פאנל פורומים */
+.panel {
+  position: fixed;
+  display: flex;
+  width: 60px;
+  height: auto;
+  left: 0px;
+  bottom: 80px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  background-color: #e4e8ff;
+}
+
+.text {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 6px;
+  margin-left: auto;
+  @import url('<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Varela+Round&display=swap" rel="stylesheet">');
+  font-family: 'Varela Round', sans-serif;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img {
+  width: 37px;
+  margin-bottom: 15px;
+}
+
 /* כותרת תוצאות חיפוש */
 a.gs-title {
   font-size: 20px !important;
